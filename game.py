@@ -10,7 +10,7 @@ class Dice:
             return False
         for item in new_dist:
             try:
-                # try to typecase as float, if it fails it means we did not receive a real number
+                # try to typecast as float, if it fails it means we did not receive a real number
                 _ = float(item)
             except ValueError:
                 print('Error: The elements of the probability distribution list must be floats')
